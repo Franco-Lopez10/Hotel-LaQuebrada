@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>hotellaquebrada</title>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                 </ul>
             </nav>
             <div class="centered-text">
-                <p>Viva una experiencia única e inolvidable ¡EN LA QUEBRADA!</p>
+                <p>Viva una experiencia única e inolvidable!!</p>
             </div>
         </div>
     </header>
@@ -80,7 +81,7 @@
             <div class="contenido-tarjeta">
                 <h2><i class="fa-solid fa-utensils"></i> Comida Gourmet</h2>
                 <p>
-                    Te invitamos a explorar la rica gastronomía de la Quebrada, una joya
+                    Te invitamos a explorar la rica gastronomía del Pueblo, una joya
                     culinaria en la provincia de Salta. Disfruta de platos exquisitos
                     como las empanadas salteñas, tamales, locro y humita, todos
                     preparados con ingredientes locales frescos y siguiendo recetas
@@ -121,7 +122,7 @@
             <div class="contenido-tarjeta">
                 <h2><i class="fa-solid fa-wine-glass-alt"></i> Viñedos</h2>
                 <p>
-                    Te invitamos a descubrir nuestros exclusivos viñedos en el Pueblo.
+                    Te invitamos a descubrir nuestros exclusivos viñedos en la Viña.
                     Disfruta de un recorrido por nuestros viñedos, donde podrás aprender
                     sobre la producción de vino y degustar una selección de los mejores
                     vinos de la región. Sumérgete en la experiencia única de explorar la
@@ -176,104 +177,13 @@
         </div>
     </section>
 
-    <!-- habitaciones  -->
-    <section class="seccion-tarjetas-habitaciones" id="habitaciones">
-        <h2 class="titulo-habitaciones">
-            <i class="fa-solid fa-bed"></i> Nuestras Habitaciones
-        </h2>
+    <!-- habitaciones -->
+    <div class="seccion-tarjetas-habitaciones" id="habitaciones">
+        <h2 class="titulo-habitaciones">Nuestras Habitaciones</h2>
         <div class="contenedor-tarjetas">
-            <!-- Tarjeta 1 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion1.jpg" alt="Habitación 1 Imagen 1">
-                        <img src="./imagenes/habitacion01.jpg" alt="Habitación 1 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Habitación Estándar</h2>
-                    <p>Una habitación cómoda y acogedora con todas las comodidades básicas.</p>
-                    <p class="precio">$100 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
-            <!-- Tarjeta 2 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion2.jpg" alt="Habitación 2 Imagen 1">
-                        <img src="./imagenes/habitacion02.jpg" alt="Habitación 2 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Habitación Doble</h2>
-                    <p>Ideal para parejas, con un ambiente romántico y vistas espectaculares.</p>
-                    <p class="precio">$150 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
-            <!-- Tarjeta 3 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion3.jpg" alt="Habitación 3 Imagen 1">
-                        <img src="./imagenes/habitacion03.jpg" alt="Habitación 3 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Suite Junior</h2>
-                    <p>Habitación espaciosa con áreas separadas para dormir y relajarse.</p>
-                    <p class="precio">$200 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
-            <!-- Tarjeta 4 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion4.jpg" alt="Habitación 4 Imagen 1">
-                        <img src="./imagenes/habitacion04.jpg" alt="Habitación 4 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Suite Presidencial</h2>
-                    <p>Una suite de lujo con todas las comodidades y un toque elegante.</p>
-                    <p class="precio">$350 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
-            <!-- Tarjeta 5 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion5.jpg" alt="Habitación 5 Imagen 1">
-                        <img src="./imagenes/habitacion05.jpg" alt="Habitación 5 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Habitación Familiar</h2>
-                    <p>Espaciosa y equipada para alojar a toda la familia con comodidad.</p>
-                    <p class="precio">$250 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
-            <!-- Tarjeta 6 -->
-            <div class="tarjeta-habitacion">
-                <div class="imagen-habitacion">
-                    <div class="slider-imagenes">
-                        <img src="./imagenes/habitacion6.jpg" alt="Habitación 6 Imagen 1">
-                        <img src="./imagenes/habitacion06.jpg" alt="Habitación 6 Imagen 2">
-                    </div>
-                </div>
-                <div class="contenido-habitacion">
-                    <h2>Habitación Deluxe</h2>
-                    <p>Habitación lujosa con vista panorámica y servicios exclusivos.</p>
-                    <p class="precio">$300 por noche</p>
-                    <button class="btn-reservar">Reservar</button>
-                </div>
-            </div>
         </div>
-    </section>
+    </div>
+
 
     <!-- resañas  -->
     <div class="seccion-resenas">
@@ -324,7 +234,7 @@
                 </div>
                 <p>"Las modernas instalaciones del Hotel y sus cómodas habitaciones garantizan una estancia placentera.
                     Ideal
-                    para quienes buscan confort y bienestar en en Pueblo."</p>
+                    para quienes buscan confort y bienestar en el pueblo."</p>
             </div>
         </div>
     </div>
@@ -334,7 +244,7 @@
         <div class="contenido-footer">
             <div class="contacto-footer" id="contacto">
                 <h3>Contacto</h3>
-                <p><i class="fa-solid fa-map-marker-alt"></i> Av. de los Viñedos 246, La Quebrada, Salta</p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> Av. de los pinos 123, La Viña, Salta</p>
                 <p><i class="fa-solid fa-phone"></i> +54 387 123 4567</p>
                 <p><i class="fa-solid fa-envelope"></i> contacto@hotellaquebrada.com</p>
             </div>
@@ -364,6 +274,7 @@
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <script src="iconos.js"></script>
     <script src="main.js"></script>
 </body>
